@@ -8,7 +8,10 @@
 ![Swagger](https://img.shields.io/badge/Swagger-OpenAPI-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 ![MIT License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
-# Investment Portfolio Tracker API
+<h1 align="center">Investment Portfolio Tracker API</h1>
+<p align="center">
+A Java Spring Boot REST API for investment portfolio management and analytics.
+</p>
 
 A medium-complexity **Java / Spring Boot backend** for tracking investment portfolios,
 transactions, and watchlists, with basic performance analytics (returns, P/L,
