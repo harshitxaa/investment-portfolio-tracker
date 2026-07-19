@@ -1,5 +1,3 @@
-HTML
-
 <p align="center">
   
 ![Java](https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -11,6 +9,8 @@ HTML
 ![JWT](https://img.shields.io/badge/JWT-Authentication-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-OpenAPI-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 ![MIT License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+
+</p>
 
 <h1 align="center">Investment Portfolio Tracker API</h1>
 <p align="center">
