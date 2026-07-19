@@ -1,0 +1,15 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: portfolio-tracker-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: portfolio_tracker
+    ports:
+      - "3306:3306"
+    volumes:
+      - portfolio_tracker_data:/var/lib/mysql
+
+volumes:
+  portfolio_tracker_data:
