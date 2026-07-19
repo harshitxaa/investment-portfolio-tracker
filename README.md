@@ -1,4 +1,8 @@
-# Portfolio Tracker API
+![Java](https://img.shields.io/badge/Java-21-orange)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.4-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-blue)
+
+# Investment Portfolio Tracker API
 
 A medium-complexity **Java / Spring Boot backend** for tracking investment portfolios,
 transactions, and watchlists, with basic performance analytics (returns, P/L,
@@ -12,7 +16,16 @@ Spring Security with JWT, validation, global exception handling, pagination,
 filtering/search, and Swagger documentation. The analytics endpoints are simple
 and well-documented on purpose, so every formula is something you can explain
 line by line.
+## Features
 
+- JWT Authentication
+- Portfolio Management
+- Transaction Tracking
+- Watchlist
+- Portfolio Analytics
+- Swagger/OpenAPI Documentation
+- Spring Security
+- MySQL Database
 ---
 
 ## Tech stack
@@ -20,7 +33,7 @@ line by line.
 | Concern              | Technology                                  |
 |-----------------------|---------------------------------------------|
 | Language / runtime    | Java 17                                      |
-| Framework             | Spring Boot 3.3 (Web, Security, Validation)  |
+| Framework             | Spring Boot 3.3.4 (Web, Security, Validation)  |
 | Persistence           | Spring Data JPA + Hibernate                  |
 | Database              | MySQL 8                                      |
 | Auth                  | JWT (jjwt), BCrypt password hashing          |
@@ -246,18 +259,12 @@ curl -X POST http://localhost:8080/api/watchlist \
 
 ---
 
-## Things worth knowing if you extend this project
+## Author
+Harshita
 
-- `ddl-auto: update` is used for convenience. A production-grade version of
-  this project would swap to **Flyway or Liquibase** migrations with
-  `ddl-auto: validate`.
-- Passwords are hashed with **BCrypt** via Spring Security's
-  `PasswordEncoder` — never stored or logged in plain text.
-- JWT secret and DB credentials are read from environment variables with
-  dev-only fallback defaults in `application.yml` — never commit real
-  secrets.
-- Natural next steps if you want to push this further: refresh tokens,
-  role-based admin endpoints (the `Role` enum already exists), rate
-  limiting, caching the market price lookups, integration tests with
-  Testcontainers, and replacing the simulated price feed with a real
-  market-data API.
+GitHub: https://github.com/harshitxaa
+
+--
+
+## License
+This Project is licensed under the MIT License. See the LICENSE file for details.
