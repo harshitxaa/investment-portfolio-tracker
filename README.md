@@ -8,7 +8,7 @@
 ![Swagger](https://img.shields.io/badge/Swagger-OpenAPI-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 ![MIT License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
-<h1 align="center">Investment Portfolio Tracker API</h1>
+<h1 align="center">INVESTMENT PORTFOLIO TRACKER API </h1>
 <p align="center">
 
 A medium-complexity **Java / Spring Boot backend** for tracking investment portfolios,
