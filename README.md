@@ -266,12 +266,14 @@ curl -X POST http://localhost:8080/api/watchlist \
 
 ---
 
-## Author
-Harshita
-
-GitHub: https://github.com/harshitxaa
-
---
-
 ## License
 This Project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
+## Author
+
+Harshita
+
+GitHub: [@harshitxaa](https://github.com/harshitxaa)
+
